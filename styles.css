@@ -1,0 +1,83 @@
+body {
+    background-color: #37446e;
+    font-family: Arial, sans-serif;
+    color: #080a10;
+}
+
+p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+a {
+      text-decoration: none;
+      font-size: 16px;
+    }
+    
+a:link {
+    color: #4d5f9a;
+}
+
+a:visited {
+    color: #28314f;
+}
+
+a:hover {
+    color: #7282b9;
+}
+
+a:active {
+    color: #4d5f9a;
+}
+
+.business-card {
+    width: 90%;
+    max-width: 750px;
+    background-color: #c6cde3;
+    padding: 20px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-radius: 5%;
+    border-width: 2px;
+    border-color: #4d5f9a;
+    padding: 10px;
+}
+
+.profile-image {
+    max-width: 50%;
+    height: auto;
+    border-style: solid;
+    border-color: #37446e;
+    border-width: 2px;
+    border-radius: 50%;
+    
+}
+
+hr {
+    background-color: #7282b9;
+    height: 2px;
+    border: none;
+}
+
+.full-name {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.company {
+    font-style: italic;
+    font-size: 14px;
+}
+
+h2 {
+    font-size: 16px;
+}
+
+.social-media {
+    font-size: 16px;
+}
