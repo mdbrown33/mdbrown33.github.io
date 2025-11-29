@@ -1,7 +1,7 @@
 body {
-    background-color: #37446e;
+    background-color: #221316;
     font-family: Arial, sans-serif;
-    color: #080a10;
+    color: #E0E0E0;
 }
 
 p {
@@ -15,51 +15,50 @@ a {
     }
     
 a:link {
-    color: #4d5f9a;
+    color: #D9737C;
 }
 
 a:visited {
-    color: #28314f;
+    color: #B85E67;
 }
 
 a:hover {
-    color: #7282b9;
+    color: #E68F98;
 }
 
 a:active {
-    color: #4d5f9a;
+    color: #C55E67;
 }
 
 .business-card {
     width: 90%;
     max-width: 750px;
-    background-color: #c6cde3;
+    background: #1A1A1A;
     padding: 20px;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin: 5% auto;
     text-align: center;
     font-size: 16px;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: solid;
     border-radius: 5%;
-    border-width: 2px;
-    border-color: #4d5f9a;
-    padding: 10px;
+    position: relative;
+    box-shadow: 0 4px 8px #111111;
+    transition: box-shadow 0.3s ease;
 }
-
 .profile-image {
     max-width: 50%;
     height: auto;
     border-style: solid;
-    border-color: #37446e;
-    border-width: 2px;
+    border-color: #1A1A1A;
+    border-width: 1px;
     border-radius: 50%;
+    display: inline-block;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.55), 0 1px 0 rgba(255, 255, 255, 0.03);
+    transition: box-shadow 0.25s ease, transform 0.25s ease;
+    transform: translateZ(0);
     
 }
 
 hr {
-    background-color: #7282b9;
+    background-color: #333333;
     height: 2px;
     border: none;
 }
@@ -80,4 +79,29 @@ h2 {
 
 .social-media {
     font-size: 16px;
+}
+
+#portfolio-button {
+    background-color: #5D2A2F;
+    border: none;
+    padding: 4px 8px;
+    text-align: center;
+    display: inline-block;
+    margin: 6px 2px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px #111111;    
+}
+#portfolio-button:hover {
+    background-color: #6B3036;
+    color: #F5F5F5;
+    cursor: pointer;
+}
+
+#portfolio-button:active {
+    background-color: #4F2428;
+}
+
+#portfolio-button a {
+    color: #E0E0E0;
+    font-weight: bold;
 }
