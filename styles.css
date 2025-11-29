@@ -1,5 +1,5 @@
 body {
-    background-color: #221316;
+    background-color: #333333;
     font-family: Arial, sans-serif;
     color: #E0E0E0;
 }
@@ -11,7 +11,7 @@ p {
 
 a {
       text-decoration: none;
-      font-size: 16px;
+      font-size: 24px;
     }
     
 a:link {
@@ -34,7 +34,8 @@ a:active {
     width: 90%;
     max-width: 750px;
     background: #1A1A1A;
-    padding: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     margin: 5% auto;
     text-align: center;
     font-size: 16px;
@@ -61,20 +62,26 @@ hr {
     background-color: #333333;
     height: 2px;
     border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .full-name {
-    font-size: 18px;
+    font-size: 36px;
     font-weight: 600;
+}
+
+.designation, #email {
+    font-size: 24px;
 }
 
 .company {
     font-style: italic;
-    font-size: 14px;
+    font-size: 18px;
 }
 
 h2 {
-    font-size: 16px;
+    font-size: 24px;
 }
 
 .social-media {
@@ -84,7 +91,7 @@ h2 {
 #portfolio-button {
     background-color: #5D2A2F;
     border: none;
-    padding: 4px 8px;
+    padding: 8px 12px;
     text-align: center;
     display: inline-block;
     margin: 6px 2px;
