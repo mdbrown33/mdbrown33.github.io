@@ -2,6 +2,8 @@ body {
     background-color: #333333;
     font-family: Arial, sans-serif;
     color: #E0E0E0;
+    margin: 0;
+    padding: 0;
 }
 
 p {
@@ -78,6 +80,7 @@ hr {
 .company {
     font-style: italic;
     font-size: 18px;
+    margin-top: 8px;
 }
 
 h2 {
@@ -88,13 +91,21 @@ h2 {
     font-size: 16px;
 }
 
+.footer-links {
+    width: 100%;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 0;
+    
+}
+
 #portfolio-button {
     background-color: #5D2A2F;
     border: none;
     padding: 8px 12px;
     text-align: center;
     display: inline-block;
-    margin: 6px 2px;
+    margin: 15px 2px 5px 2px;
     border-radius: 5px;
     box-shadow: 0 4px 8px #111111;    
 }
